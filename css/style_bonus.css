@@ -1,0 +1,168 @@
+/*Reset*/
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    letter-spacing: 2px;
+}
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #e5dd7e;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #191716;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #E6AF2E;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fa-gem{
+    color: #E6AF2E;
+}
+nav ul li a i{
+    font-family: 'Kaushan Script', cursive;
+}
+.logo2{
+    background-image: url(../img/montagne.webp);
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    color: #e5dd7e;
+}
+.logo2 h1 {
+    letter-spacing: 20px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.logo2 img{
+    width: 365px;
+}
+.intro{
+    background-color: #3e3838;
+    color: #e5dd7e;
+    padding: 40px 100px;
+}
+.intro h2{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 0 30% 20px 30%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.avengers{
+    background-color: aliceblue;
+    padding: 40px 100px;
+    text-align: start;
+}
+.avengers h2{
+    color: #6cbbb3;
+    margin-bottom: 10px;
+}
+.avengers p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.avengers img{
+    width: 1000px;
+}
+.avengers h4{
+    margin-top: 20px;
+    color: #6cbbb3;
+    font-family: 'Roboto', sans-serif;
+}
+.star h4{
+    margin-top: 20px;
+    color: aliceblue;
+}
+.star{
+    background-color: #6cbbb3;
+    padding: 40px 100px;
+    text-align: left;
+}
+.star h2{
+    margin-bottom: 20px;
+}
+.star p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.star img{
+    width: 1000px;
+}
+.woman{
+    background-color: #3e3838;
+    padding: 40px 100px;
+    text-align: start;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+.woman h2{
+    margin-bottom: 10px;
+}
+.woman p{
+    margin-bottom: 20px;
+}
+.woman img{
+    margin-bottom: 30px;
+    width: 1000px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: start;
+    padding: 40px 100px;
+}
+footer img{
+    margin-bottom: 20px;
+}
+footer span{
+    color: #e5dd7e;
+}
+@media screen and (max-width: 430px) {
+   .flex{
+    display: block;
+   }
+   .center{
+    width: 100%;
+   }
+   .logo2{
+    padding: 150px 0;
+   }
+   .logo2 h1{
+    letter-spacing: 0;
+   }
+   .logo2 img{
+    width: 200px;
+   }
+   .avengers img{
+    width: 200px;
+   }
+   .star img{
+    width: 200px;
+   }
+   .woman img{
+    width: 200px;
+   }
+}

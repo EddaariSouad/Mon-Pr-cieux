@@ -1,0 +1,77 @@
+/* recurents */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6E8EA;
+    font-family: 'Roboto', sans-serif;
+    cursor: url('../img/diamant.png'), auto;
+}
+.flex{
+    display: flex;
+}
+a{
+    font-family: 'Kaushan Script', cursive;
+    cursor: url('../img/diamant2.png'), auto;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+button{
+    font-family: 'Kaushan Script', cursive;
+    cursor: url('../img/diamant2.png'), auto;
+}
+
+/* navigation */
+nav{
+    background-color: #191716;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #E6AF2E;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+}
+.fa-gem{
+    color: #E6AF2E;
+}
+/* section */
+section{
+    text-align: center;
+    padding: 90px 0 173px 0;
+}
+section button{
+    background-color: #191716;
+    color: #E6AF2E;
+    border: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.emeraude{
+    padding: 90px 0 135px 0;
+}
+.rubis{
+    padding: 90px 0 154px 0;
+}
+.saphir{
+    padding: 90px 0 135px 0;
+}
+/* footer */
+footer{
+    background-color: #191716;
+    color: #E6AF2E;
+    padding: 20px;
+}

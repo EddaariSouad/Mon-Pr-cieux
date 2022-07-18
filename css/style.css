@@ -1,0 +1,161 @@
+/* recurents */
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/roboto-regular-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Kaushan Script";
+    src: url("../font/KaushanScript/kaushanscript-regular-webfont.woff2") format("woff2");
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6E8EA;
+    font-family: 'Roboto', sans-serif;
+    cursor: url('../img/diamant.png'), auto;
+}
+.flex{
+    display: flex;
+}
+a{
+    font-family: 'Kaushan Script', cursive;
+    cursor: url('../img/diamant2.png'), auto;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+h3{
+    font-family: 'Kaushan script', cursive;
+}
+/* navigation */
+nav{
+    background-color: #191716;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #E6AF2E;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fa-gem{
+    color: #E6AF2E;
+}
+nav ul li a i{
+    font-family: 'Kaushan Script', cursive;
+}
+/* en tête */
+header{
+    background-image: url(../img/header.webp);
+    text-align: center;
+    padding: 15%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1{
+    color: #E6AF2E;
+    text-transform: uppercase;
+}
+header p{
+    color: #F6E8EA;
+}
+/* produit */
+.produit{
+    padding: 80px 0;
+}
+.centerflex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    grid-auto-rows: minmax(50px, center); 
+    align-items: center;
+}
+.centerflex article{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.centerflex article{
+    width: 200px;
+    height: 200px;
+}
+/* avis */
+.avis{
+    background-image: url(../img/section.webp);
+    background-position: bottom;
+    padding: 80px 0;
+}
+.avis article{
+    background-color: #F6E8EA;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.avis .info{
+    justify-content: center;
+    align-items: center;
+}
+.avis .info .com{
+    text-align: start;
+}
+.avis .info img{
+    width: 90px;
+    height: 90px;
+    margin-left: 200px;
+}
+.com p{
+    color: #3d3d3c;
+}
+#avis {
+    color: #E6AF2E;
+}
+/* footer */
+footer{
+    background-color: #191716;
+    color: #E6AF2E;
+    padding: 20px;
+}
+
+@media screen and (max-width: 430px){
+    .center{
+        width: 90%;
+    }
+    .logo a img {
+        width: 250px;
+        height: 50px;
+    }
+    nav ul{
+        padding: 0;
+    }
+    nav ul li a{
+        margin-bottom: 10px;
+    }
+    .flex{
+        display: block;
+    }
+    .centerflex{
+        display: block;
+    }
+    .avis .info img{
+        margin-left: 0;
+    }
+    .produit .center{
+        width: 55%;
+    }
+}

@@ -1,0 +1,118 @@
+/* recurents */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6E8EA;
+    font-family: 'Roboto', sans-serif;
+    cursor: url('../img/diamant.png'), auto;
+}
+.flex{
+    display: flex;
+}
+a{
+    font-family: 'Kaushan Script', cursive;
+    cursor: url('../img/diamant2.png'), auto;
+}
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+button{
+    font-family: 'Kaushan Script', cursive;
+    cursor: url('../img/diamant2.png'), auto;
+}
+/* navigation */
+nav{
+    background-color: #191716;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #E6AF2E;
+    padding: 20px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fa-gem{
+    color: #E6AF2E;
+}
+section{
+    text-align: center;
+}
+/* form */
+section{
+    background-image: url(../img/section.jpg);
+    padding: 80px 0;
+    color: #E6AF2E;
+} 
+section p{
+    color: #F6E8EA;
+}
+form input{
+    background-color: #F6E8EA;
+    border: none;
+    padding: 20px 10px;
+    width: 98%;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.name input{
+    background-color: #F6E8EA;
+    border: none;
+    padding: 20px 10px;
+    width: 45.5%;
+    margin-bottom: 30px;
+}
+.name input:nth-of-type(1){
+    margin-right: 30px;
+}
+.name input:nth-of-type(2){
+    margin-left: 30px;
+}
+form textarea{
+    background-color: #F6E8EA;
+    border: none;
+    padding: 20px 10px;
+    width: 98%;
+    margin-bottom: 30px;
+    min-height: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+form button{
+    background-color: #191716;
+    color: #E6AF2E;
+    border: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+/* footer */
+footer{
+    background-color: #191716;
+    color: #E6AF2E;
+    padding: 20px;
+}
+@media screen and (max-width: 430px) {
+    nav .flex{
+        display: block;
+    }
+    .name input{
+        width: 98%;
+    }
+    .name input:nth-of-type(1){
+        margin-right: 0;
+    }
+    .name input:nth-of-type(2){
+        margin-left: 0;
+    }
+}
